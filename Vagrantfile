@@ -25,7 +25,7 @@
     config.berkshelf.enabled = true
 
     # Define VM box to use
-    config.vm.box = "precise32"
+    config.vm.box = "precise64"
     config.vm.box_url = "../precise64_vmware.box"
 
     # Set share folder
