@@ -31,7 +31,7 @@ end
 # Install Composer
 bash "composer" do
   code <<-EOH
-    curl -s https://getcomposer.org/installer | php
+    curl -s http://172.22.22.1/installer | php
     sudo mv composer.phar /usr/local/bin/composer
   EOH
 end
